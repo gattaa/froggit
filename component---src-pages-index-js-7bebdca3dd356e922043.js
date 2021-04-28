@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[678],{704:function(e,t,a){"use strict";a.r(t),a.d(t,{default:function(){return n}});var r=a(294);function n(){return r.createElement("div",{className:"container"},r.createElement("h1",{className:"thatone"},"why do i have a website? idk"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-7bebdca3dd356e922043.js.map
