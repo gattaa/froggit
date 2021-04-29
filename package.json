@@ -15,24 +15,15 @@
     "deploy": "gatsby build && echo www.froggit.dev >> ./public/CNAME && gh-pages -d public"
   },
   "dependencies": {
-<<<<<<< HEAD
     "framer-motion": "^4.1.11",
     "gatsby": "^3.3.1",
-=======
-    "gatsby": "^3.4.0",
->>>>>>> 3f46fad0fb8bf2fffb488790823dd78f18dfab97
     "gatsby-plugin-manifest": "^3.4.0",
     "gatsby-plugin-react-helmet": "^4.4.0",
-    "react": "^17.0.2",
+    "react": "^17.0.1",
     "react-anime": "^4.0.4",
-<<<<<<< HEAD
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-typed": "^1.2.0"
-=======
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
->>>>>>> 3f46fad0fb8bf2fffb488790823dd78f18dfab97
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
