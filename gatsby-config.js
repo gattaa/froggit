@@ -12,13 +12,14 @@ module.exports = {
     description: `i got a website, but at what cost...`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `froggit.dev`,
         short_name: `froggit`,
         start_url: `/`,
-        icon: 'static/gemini.png',
+        icon: 'static/froggit.png',
       },
     }
   ]
