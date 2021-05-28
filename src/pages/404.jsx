@@ -1,8 +1,6 @@
 import React from "react"
 import {Helmet} from "react-helmet";
 import './index.css';
-// import { motion } from "framer-motion";
-import Typed from 'react-typed';
 import Navbar from "../components/navbar.jsx"
 
 
@@ -21,8 +19,10 @@ export default function Home() {
   </Helmet>
     <Navbar></Navbar>
     <div className="content-center flex justify-center items-center whitespace-pre-wrap">
-    <h1 className="text-3xl font-bold thatfont"><Typed strings={['why do i have a website', 'man...', 'anyways i could write whatever here!', 'but why are you still here.', 'man why are you still here', 'welp thats enough typing for today', 'wade, put the site like how it was before please', 'why did i get a website. man...']} typeSpeed={40} backSpeed={50} /></h1>
+    <h1 className="text-9xl font-bold">404!</h1>
+    <h2 className="font-semibold">the page might not exist yet,{"\n"}or you followed a broken link.</h2>
     </div>
-    
+    {/* TODO go back home */}
+    {/*<h1 className="thatone"><Typed strings={['why do i have a website', 'man...', 'anyways i could write whatever here!', 'but why are you still here.', 'man why are you still here', 'welp thats enough typing for today', 'wade, put the site like how it was before please', 'why did i get a website. man...']} typeSpeed={40} backSpeed={50} /></h1>*/}
   </div>
 }
