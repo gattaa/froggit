@@ -12,25 +12,16 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="relative outline-none" >
-      <div className=" mx-auto">
-        <div className="relative  pb-2  sm:pb-5 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-5 xl:pb-32">
-          {/*<svg
-            className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-            fill="currentColor"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-            aria-hidden="true"
-          >
-            <polygon points="50,0 100,0 50,100 0,100" />
-          </svg>*/}
+    <div className="relative outline-none border-b-2 border-gray-100 w-screen" >
+      <div className="">
+        <div className="relative  pb-4  ">
 
           <Popover>
             {({ open }) => (
               <>
-                <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+                <div className="relative pt-4 px-4 sm:px-6 lg:px-8 mx-auto">
                   <nav
-                    className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+                    className="relative flex items-center justify-between sm:h-10 lg:justify-start mx-auto"
                     aria-label="Global"
                   >
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -50,9 +41,9 @@ export default function Navbar() {
                         </div>
                       </div>
                     </div>
-                    <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                    <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 mx-auto justify-center">
                       {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="font-semibold thatfont text-gray-900 hover:text-gray-900">
+                        <a key={item.name} href={item.href} className="thatfont text-gray-700 hover:text-gray-900">
                           {item.name}
                         </a>
                       ))}
@@ -83,7 +74,7 @@ export default function Navbar() {
                         <div>
                           <img
                             className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                            src="/froggit.png"
                             alt=""
                           />
                         </div>
