@@ -12,7 +12,7 @@ export default function Banner() {
               <HeartIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">o</span>
+              <span className="md:hidden">happy pride month :)</span>
               <span className="hidden md:inline">happy pride month :)</span>
             </p>
           </div>

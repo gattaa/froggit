@@ -5,12 +5,19 @@ import './index.css';
 import Typed from 'react-typed';
 import Navbar from "../components/navbar.jsx"
 import Banner from "../components/banner.jsx"
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  gtmId: 'GTM-TZL7W9Q'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 
 export default function Home() {
   
   return  <div className="">
-    <Helmet>
+    <Helmet htmlAttributes={{ lang : 'en' }}>
       <meta charSet="utf-8" />
       <title>froggit</title>
       <meta name="title" content="froggit"></meta>

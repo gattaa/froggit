@@ -31,6 +31,7 @@ export default function Navbar() {
                           <img
                             className="h-8 w-auto sm:h-10"
                             src="/froggit.png"
+                            alt="icon"
                           />
                         </a>
                         <div className="-mr-2 flex items-center md:hidden">
@@ -75,7 +76,7 @@ export default function Navbar() {
                           <img
                             className="h-8 w-auto"
                             src="/froggit.png"
-                            alt=""
+                            alt="icon"
                           />
                         </div>
                         <div className="-mr-2">
