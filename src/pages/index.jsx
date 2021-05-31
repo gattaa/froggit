@@ -5,13 +5,13 @@ import './index.css';
 import Typed from 'react-typed';
 import Navbar from "../components/navbar.jsx"
 import Banner from "../components/banner.jsx"
-import TagManager from 'react-gtm-module'
+/*import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
   gtmId: 'GTM-TZL7W9Q'
 }
 
-TagManager.initialize(tagManagerArgs)
+TagManager.initialize(tagManagerArgs)*/
 
 
 export default function Home() {
