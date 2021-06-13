@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `froggit`,
     siteUrl: `https://www.froggit.dev`,
-    description: `i got a website, but at what cost...`,
+    description: `i got a website, but at what cost...`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,6 +22,6 @@ module.exports = {
         start_url: `/`,
         icon: 'static/froggit.png',
       },
-    }
+    },
   ]
 }

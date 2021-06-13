@@ -44,7 +44,7 @@ export default function Navbar() {
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 mx-auto justify-center">
                       {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="thatfont text-gray-700 hover:text-gray-900">
+                        <a key={item.name} href={item.href} className="thatfont text-gray-700 hover:text-gray-900 cursor-not-allowed">
                           {item.name}
                         </a>
                       ))}

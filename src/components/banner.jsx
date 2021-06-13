@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { HeartIcon, XIcon } from '@heroicons/react/outline'
+import React from 'react'
+import { HeartIcon } from '@heroicons/react/outline'
 
 export default function Banner() {
     {/*const text = this.props.text;*/}
